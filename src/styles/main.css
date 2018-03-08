@@ -1,0 +1,86 @@
+/**
+ * Responsive Breakpoint Manager 
+ *
+ * 0px - 600px:       Small
+ * 600px - 900px:     Medium
+ * 900px - 1140px:    Large
+ * 1800px and more:   Huge
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500");
+.page-border {
+  background: #F5F5F5;
+  margin: 20px; }
+
+/**
+ * Basic reset of font-size, box-sizing, margin and padding.
+ *
+ * 1. Thanks to this declaration You can easily build layout based on rem unit.
+ *    At normal state (without any media queries) 1rem is equal to 10px.
+ *    Value is calculated assuming that 1rem is originally 16px.
+ *    You can change that by adding next function parameter, e.g. 'px-to-percent(10px, 20px)'.
+ */
+html {
+  font-size: 62.5%;
+  /* 1 */
+  box-sizing: border-box; }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 56.25%; } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 100; }
+
+.page-title {
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 0.1rem; }
+
+.article-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem; }
+  @media (max-width: 37.5em) {
+    .article-title {
+      font-size: 2rem; } }
+
+.paragraph {
+  font-size: 1.8rem;
+  font-weight: 500; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 1rem; }
+
+header {
+  margin: 0.625em 0; }
+  header .nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+    header .nav li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 0.625em;
+      width: 7.5em;
+      border-bottom: 1px solid black; }
+      header .nav li .active {
+        color: pink; }
+      header .nav li .text-right {
+        float: right; }
+      header .nav li .text-left {
+        float: left; }
+    header .nav #logo {
+      height: auto;
+      width: 16em;
+      border: none; }
+      header .nav #logo img {
+        width: 16em;
+        height: auto; }

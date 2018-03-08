@@ -1,0 +1,34 @@
+header {
+	margin: px-to-em(10px) 0;
+	.nav {
+		width: 100%;
+		margin:0 auto;
+		text-align: center;
+		li {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 px-to-em(10px);
+			width: px-to-em(120px);
+			border-bottom: 1px solid rgb(0,0,0);
+			.active {
+				color: pink;
+			}
+			.text-right {
+				float: right;
+			}
+			.text-left {
+				float: left;
+			}
+		}
+
+		#logo {
+			height: auto;
+			width: px-to-em(256px);
+			border: none;
+			img {
+				width: px-to-em(256px);
+				height: auto;
+			}
+		}
+	}
+}
