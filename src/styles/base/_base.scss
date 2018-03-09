@@ -1,4 +1,13 @@
 .page-border {
 	background: #F5F5F5;
-    margin: 20px;
+	margin: 20px;
+	height: 100vh;
+}
+
+.hex-container {
+	width:700px;
+	height:100%;
+	position: absolute;
+	left:50%;
+	margin-left:-325px;
 }

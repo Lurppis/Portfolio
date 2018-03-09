@@ -15,9 +15,9 @@ const store = configureStore();
 
 const app = (
 	<Provider store={store}>
-	  <AppRouter />
+		<AppRouter />
 	</Provider>
-  );
+);
 
 ReactDOM.render(app, document.getElementById('root'));
 registerServiceWorker();

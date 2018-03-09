@@ -1,31 +1,30 @@
 body {
-  font-family: "Roboto", sans-serif;
-  color: $color-4-light;
+  font-family: "freightsans_regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: $color-5;
   font-weight: 100;
 }
 
-.page-title {
-  text-align: center;
-  font-size: 5rem;
-  letter-spacing: 0.1rem;
-}
+.welcome {
+  vertical-align: middle;
+  text-align: left;
+  margin: 0 auto;
+  width: 90vw;
+  margin-top: 25vh;
 
-.article-title {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 2.5rem;
-
-  @include respond('small') {
-    font-size: 2rem;
+  &__title {
+    font-size: 3rem;
+    line-height: 60px;
+    @include respond('small') {
+      font-size: 2rem;
+    }
   }
+  &__text {
+    width: 80vw;
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
 }
-
-.paragraph {
-  font-size: 1.8rem;
-  font-weight: 500;
-
-  &:not(:last-child) {
-    margin-bottom: 1rem;
-  }
 }
