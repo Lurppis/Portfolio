@@ -50,9 +50,10 @@ body {
 .welcome {
   vertical-align: middle;
   text-align: left;
-  margin: 0 auto;
-  width: 90vw;
-  margin-top: 25vh; }
+  margin: 0 auto; }
+  @media (min-width: 500px) {
+    .welcome {
+      margin-top: 25vh; } }
   .welcome__title {
     font-size: 3rem;
     line-height: 60px; }
@@ -60,7 +61,6 @@ body {
       .welcome__title {
         font-size: 2rem; } }
   .welcome__text {
-    width: 80vw;
     font-size: 1.8rem;
     font-weight: 300; }
     .welcome__text:not(:last-child) {
