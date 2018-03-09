@@ -1,9 +1,12 @@
-import { createStore } from 'redux';
+import { createStore, combineReducers } from 'redux';
+
+import ProjectReducer from '../reducers/projects_reducer';
 
 export default () => {
 	const store = createStore(
-		//combineReducers({}),
-		store => store,
+		combineReducers({
+			projects: ProjectReducer
+		}),
 		window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 	);
 

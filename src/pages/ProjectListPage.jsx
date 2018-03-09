@@ -3,9 +3,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 class ProjectList extends Component {
-	constructor(props) {
-		super(props);
-	}
 
 	renderList() {
 		return this.props.projects.map((project) => {
