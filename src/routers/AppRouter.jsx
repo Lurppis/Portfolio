@@ -8,12 +8,14 @@ import NotFound from '../pages/NotFound';
 const AppRouter = () => (
 	<BrowserRouter>
 		<div className='page-border'>
-			<Header />
-			<div className='wrapper'>
-				<Switch>
-					<Route path='/' exact={true} component={HomePage} />
-					<Route component={NotFound} />
-				</Switch>
+			<div className='container'>
+				<Header />
+				<div className='wrapper'>
+					<Switch>
+						<Route path='/' exact={true} component={HomePage} />
+						<Route component={NotFound} />
+					</Switch>
+				</div>
 			</div>
 		</div>
 	</BrowserRouter>

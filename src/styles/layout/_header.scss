@@ -1,40 +1,14 @@
 header {
-	margin: 0 0 px-to-em(50px) 0;
-	.nav {
-		width: 100%;
-		margin:0 auto;
-		text-align: center;
-		li {
-			display: inline-block;
-			vertical-align: middle;
-			margin: 0 px-to-em(10px);
-			width: px-to-em(180px);
-			border-bottom: 1px solid rgb(0,0,0);
-			a {
-				font-size: 1.7em;
-				text-decoration: none;
-				color: black;
-				letter-spacing: .3em
-			}
-			.active {
-				color: $color-3;
-			}
-			.text-right {
-				float: right;
-			}
-			.text-left {
-				float: left;
-			}
+	.row {
+		#link {
+			border-bottom: 1px solid rgb(18, 18, 18);
+			padding: 0 0 0 10px;
 		}
-
-		#logo {
-			height: auto;
-			width: px-to-em(256px);
-			border: none;
-			img {
-				width: px-to-em(256px);
-				height: auto;
-			}
+		a {
+			text-decoration: none;
+			color: $color-5;
+			font-size: 2em;
+			letter-spacing: .3em;
 		}
 	}
 }

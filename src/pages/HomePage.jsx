@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Hexagon from '../components/Hexagon';
-
 const HomePage = (props) => (
 	<div>
 		<div className="welcome">
