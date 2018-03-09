@@ -21,12 +21,12 @@ const Header = () => (
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-4 text-center text-md-right'>
 				<div id='link'>
-					<NavLink to='/projects' exact={true} activeClassName='active'>Socials</NavLink>
+					<NavLink to='/socials' exact={true} activeClassName='active'>Socials</NavLink>
 				</div>
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-5 text-center text-md-right'>
 				<div id='link'>
-					<NavLink to='/projects' exact={true} activeClassName='active'>Resume</NavLink>
+					<NavLink to='/resume' exact={true} activeClassName='active'>Resume</NavLink>
 				</div>
 			</div>
 		</div>

@@ -11,13 +11,11 @@ const AppRouter = () => (
 		<div className='page-border'>
 			<div className='container'>
 				<Header />
-				<div className='wrapper'>
-					<Switch>
-						<Route path='/' exact={true} component={HomePage} />
-						<Route path='/projects' exact={true} component={ProjectListPage} />
-						<Route component={NotFound} />
-					</Switch>
-				</div>
+				<Switch>
+					<Route path='/' exact={true} component={HomePage} />
+					<Route path='/projects' exact={true} component={ProjectListPage} />
+					<Route path='*' component={NotFound} />
+				</Switch>
 			</div>
 		</div>
 	</BrowserRouter>

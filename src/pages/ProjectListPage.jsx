@@ -1,25 +1,15 @@
 import React, { Component } from 'react';
 
-import { connect } from 'react-redux';
+import ProjectList from '../containers/projectList';
 
-class ProjectList extends Component {
-
-	renderList() {
-		return this.props.projects.map((project) => {
-			return(project.title);
-		});
-	}
-
+class ProjectListPage extends Component {
 	render() {
 		return(
-			<div>
-				{this.renderList()}
-			</div>
+			<ul id="hexGrid">
+				<ProjectList />
+			</ul>
 		);
 	}
 }
-const mapStateToProps = (state) => ({
-	projects: state.projects
-});
 
-export default connect(mapStateToProps)(ProjectList);
+export default ProjectListPage;
