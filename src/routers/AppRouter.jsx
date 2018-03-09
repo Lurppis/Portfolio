@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Header from '../components/Header';
 import HomePage from '../pages/HomePage';
+import ProjectListPage from '../pages/ProjectListPage';
 import NotFound from '../pages/NotFound';
 
 const AppRouter = () => (
@@ -13,6 +14,7 @@ const AppRouter = () => (
 				<div className='wrapper'>
 					<Switch>
 						<Route path='/' exact={true} component={HomePage} />
+						<Route path='/projects' exact={true} component={ProjectListPage} />
 						<Route component={NotFound} />
 					</Switch>
 				</div>
