@@ -29,12 +29,12 @@
  *    You can change that by adding next function parameter, e.g. 'px-to-percent(10px, 20px)'.
  */
 html {
-  font-size: 62.5%;
+  font-size: px-to-percent(10px);
   /* 1 */
   box-sizing: border-box; }
-  @media (max-width: 37.5em) {
+  @media (max-width: px-to-em(600px)) {
     html {
-      font-size: 56.25%; } }
+      font-size: px-to-percent(9px); } }
 
 *,
 *::after,
@@ -58,7 +58,7 @@ body {
   .welcome__title {
     font-size: 3rem;
     line-height: 60px; }
-    @media (max-width: 37.5em) {
+    @media (max-width: px-to-em(600px)) {
       .welcome__title {
         font-size: 2rem; } }
   .welcome__text {
@@ -145,7 +145,7 @@ header .row a {
   width: 100%;
   padding: 5%;
   box-sizing: border-box;
-  background-color: rgba(243, 135, 11, 0.8);
+  background-color: rgba(11, 243, 193, 0.8);
   font-weight: 300;
   -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
   transition: transform .2s ease-out, opacity .3s ease-out; }

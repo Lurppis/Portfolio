@@ -5,9 +5,13 @@ import ProjectList from '../containers/projectList';
 class ProjectListPage extends Component {
 	render() {
 		return(
-			<ul id="hexGrid">
+			<div>
+				<div className='page-header'>
+					<h1>Project list</h1>
+				</div>
 				<ProjectList />
-			</ul>
+			</div>
+
 		);
 	}
 }
