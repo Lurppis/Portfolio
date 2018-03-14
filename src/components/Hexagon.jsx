@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-const style = 'http://csshexagon.com/img/meow.jpg';
-
 class Hexagon2 extends Component {
 	render() {
 		return (

@@ -18,7 +18,7 @@ marcinpilarczyk@me.com</a> or via phone 530-740-711!</p>
 					<hr />
 
 					<div class="container_social">
-						<a class="sns_btn btn_facebook" href="#" rel="author">
+						<a class="sns_btn btn_facebook" href="https://www.facebook.com/people/Marcin-Pilarczyk/100000366427387" target='_blank'>
 							<i class="fa fa-facebook"></i>
 						</a>
 						<a class="sns_btn btn_github" href="#" rel="author">
