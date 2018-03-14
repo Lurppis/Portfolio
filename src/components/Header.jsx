@@ -26,7 +26,7 @@ const Header = () => (
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-5 text-center text-md-right'>
 				<div id='link'>
-					<NavLink to='/resume' exact={true} activeClassName='active'>Resume</NavLink>
+					<a href='/static/resume.pdf' target='_blank'>Resume</a>
 				</div>
 			</div>
 		</div>
