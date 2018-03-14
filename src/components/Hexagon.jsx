@@ -8,7 +8,7 @@ class Hexagon2 extends Component {
 			<div>
 				<div className="hexIn" data-toggle="modal" data-target={'#' + this.props.data.title}>
 					<a className="hexLink" href="#">
-						<img src={style} alt='' />
+						<img src={'./static/images/hexagons/' + this.props.data.image} alt='' />
 						<h1>{this.props.data.title}</h1>
 						<p>{this.props.data.technologies}</p>
 					</a>

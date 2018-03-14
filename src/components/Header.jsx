@@ -1,15 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import mainLogo from '../images/logo/logo.svg';
+import mainLogo from '../images/logo/logo.png';
 
 const Header = () => (
 	<header>
 		<div className='row align-items-center'>
-			<div className='col-xs-12 col-md-4 order-md-3'>
-				<img src={mainLogo} alt='logo img' />
+			<div className='col-xs-12 col-md-4 order-md-3 text-center'>
+				<img className='img-center' src={mainLogo} alt='logo img' />
 			</div>
-			<div className='col col-sm-6 col-md-2 order-md-1 text-center text-md-left'>
+			<div className='col col-sm-6 col-md-2 order-md-1'>
 				<div id='link'>
 					<NavLink to='/' exact={true} activeClassName='active'>Home</NavLink>
 				</div>
@@ -21,7 +21,7 @@ const Header = () => (
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-4 text-center text-md-right'>
 				<div id='link'>
-					<NavLink to='/socials' exact={true} activeClassName='active'>Socials</NavLink>
+					<NavLink to='/contact' exact={true} activeClassName='active'>Contact</NavLink>
 				</div>
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-5 text-center text-md-right'>

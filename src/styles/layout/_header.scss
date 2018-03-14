@@ -7,8 +7,12 @@ header {
 		a {
 			text-decoration: none;
 			color: $color-5;
-			font-size: 2em;
+			font-size: 1.1em;
 			letter-spacing: .3em;
+		}
+		img {
+			max-height: 180px;
+			width: auto;
 		}
 	}
 }

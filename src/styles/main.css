@@ -6,7 +6,8 @@
  * 900px - 1140px:    Large
  * 1800px and more:   Huge
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 .page-border {
   background: #F5F5F5;
   margin: 20px;
@@ -43,29 +44,26 @@ html {
   padding: 0;
   box-sizing: inherit; }
 
-body {
-  font-family: "freightsans_regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  color: #121212;
-  font-weight: 100; }
+html {
+  height: 100%;
+  position: relative; }
 
-.welcome {
-  vertical-align: middle;
-  text-align: left;
-  margin: 0 auto; }
-  @media (min-width: 500px) {
-    .welcome {
-      margin-top: 25vh; } }
-  .welcome__title {
-    font-size: 3rem;
-    line-height: 60px; }
-    @media (max-width: px-to-em(600px)) {
-      .welcome__title {
-        font-size: 2rem; } }
-  .welcome__text {
-    font-size: 1.8rem;
-    font-weight: 300; }
-    .welcome__text:not(:last-child) {
-      margin-bottom: 1rem; }
+body {
+  font-family: 'EB Garamond', serif;
+  color: #121212;
+  font-weight: 100;
+  background: #ddd; }
+
+.page-header {
+  margin: 30px 0 50px 0;
+  text-align: center; }
+
+p {
+  font-size: 1.2em;
+  line-height: 30px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto; }
 
 header .row #link {
   border-bottom: 1px solid #121212;
@@ -74,8 +72,69 @@ header .row #link {
 header .row a {
   text-decoration: none;
   color: #121212;
-  font-size: 2em;
+  font-size: 1.1em;
   letter-spacing: .3em; }
+
+header .row img {
+  max-height: 180px;
+  width: auto; }
+
+.container_social {
+  position: relative;
+  margin-top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  display: inline-flex; }
+
+.sns_btn {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  color: #fff;
+  font-size: 2.0em;
+  text-decoration: none;
+  height: 2.0em;
+  width: 2.0em;
+  position: relative;
+  border-radius: 0.3125em;
+  box-shadow: 0 0.1875em 0.3125em 0 rgba(0, 0, 0, 0.35);
+  margin: 0.2em;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+  overflow: hidden; }
+  .sns_btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0.3125em 0.9375em 0 rgba(0, 0, 0, 0.4); }
+  .sns_btn:active {
+    transform: scale(0.9);
+    box-shadow: 0 0.125em 0.1875em 0 rgba(0, 0, 0, 0.4); }
+
+.btn_facebook {
+  background: #3b5998; }
+  .btn_facebook:hover {
+    color: #3b5998;
+    background: #fff; }
+
+.btn_github {
+  background: #55acee; }
+  .btn_github:hover {
+    color: #55acee;
+    background: #fff; }
+
+.btn_googleplus {
+  background: #dd4b39; }
+  .btn_googleplus:hover {
+    color: #dd4b39;
+    background: #fff; }
+
+.btn_email {
+  background: #9F0303; }
+  .btn_email:hover {
+    color: #9F0303;
+    background: #fff; }
 
 #hexGrid {
   display: flex;
@@ -90,8 +149,7 @@ header .row a {
 .hex {
   position: relative;
   visibility: hidden;
-  outline: 1px solid transparent;
-  /* fix for jagged edges in FF on hover transition */ }
+  outline: 1px solid transparent; }
 
 .hex::after {
   content: '';
@@ -145,7 +203,7 @@ header .row a {
   width: 100%;
   padding: 5%;
   box-sizing: border-box;
-  background-color: rgba(11, 243, 193, 0.8);
+  background-color: rgba(0, 176, 230, 0.8);
   font-weight: 300;
   -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
   transition: transform .2s ease-out, opacity .3s ease-out; }
@@ -234,3 +292,28 @@ header .row a {
 @media (max-width: 400px) {
   #hexGrid {
     font-size: 13px; } }
+
+.welcome {
+  vertical-align: middle;
+  text-align: left;
+  margin: 50px 0 0 0; }
+  @media (min-width: 700px) {
+    .welcome {
+      margin-top: 20vh; } }
+  .welcome span {
+    color: red; }
+  .welcome__title {
+    font-size: 2rem;
+    line-height: 60px; }
+    @media (min-width: 700px) {
+      .welcome__title {
+        font-size: 3rem; } }
+    @media (max-width: px-to-em(600px)) {
+      .welcome__title {
+        font-size: 2rem; } }
+  .welcome__text {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 300; }
+    .welcome__text:not(:last-child) {
+      margin-bottom: 1rem; }
