@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import mainLogo from '../images/logo/logo.png';
+import images from '../images/index';
 
 const Header = () => (
 	<header>
 		<div className='row align-items-center'>
 			<div className='col-xs-12 col-md-4 order-md-3 text-center'>
-				<img className='img-center' src={mainLogo} alt='logo img' />
+				<img className='img-center' src={images.logo} alt='logo img' />
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-1'>
 				<div id='link'>
