@@ -10,8 +10,7 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 .page-border {
   background: #F5F5F5;
-  margin: 20px;
-  height: 100vh; }
+  margin: 20px; }
 
 .hex-container {
   width: 700px;
@@ -293,6 +292,12 @@ header .row img {
   #hexGrid {
     font-size: 13px; } }
 
+.projectSection img {
+  border-radius: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 100%; }
+
 .welcome {
   vertical-align: middle;
   text-align: left;
@@ -300,6 +305,8 @@ header .row img {
   @media (min-width: 700px) {
     .welcome {
       margin-top: 20vh; } }
+  .welcome__text {
+    padding-bottom: 200px; }
   .welcome span {
     color: red; }
   .welcome__title {

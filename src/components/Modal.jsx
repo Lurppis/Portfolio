@@ -17,9 +17,11 @@ class Modal extends Component {
 						<div className='modal-body'>
 							<div>
 								<img src={require('../images/hexagons/' + this.props.data.image)} alt='' style={{float: 'left', marginRight: 25, marginBottom: 25, maxWidth: 280}} />
-								<p>Simple description</p>
+								<h4>Description:</h4>
+								<p>{this.props.data.description}</p>
 							</div>
-							<p>Technologies</p>
+							<p>Used technologies: {this.props.data.technologies}</p>
+							<a href={this.props.data.url}>Go to github</a>
 						</div>
 					</div>
 				</div>

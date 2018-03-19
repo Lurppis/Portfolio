@@ -3,9 +3,28 @@ import { connect } from 'react-redux';
 
 import Hexagon from '../components/Hexagon';
 import Modal from '../components/Modal';
+import ProjectElement from '../components/ProjectElement';
 
 class ProjectList extends Component {
 
+	renderMiniProject() {
+		return this.props.projects.map((project) => {
+			if(project.miniProject === true){
+				return (
+					<ProjectElement data={project} />
+				);
+			}
+		});
+	}
+	renderBigProject() {
+		return this.props.projects.map((project) => {
+			if(project.bigProject === true){
+				return (
+					<ProjectElement data={project} />
+				);
+			}
+		});
+	}
 	renderList() {
 		return this.props.projects.map((project) => {
 			return (
@@ -26,10 +45,29 @@ class ProjectList extends Component {
 	render() {
 		return (
 			<div>
-				<ul id='hexGrid'>
-					{this.renderList()}
-				</ul>
-				{this.renderModals()}
+				<section>
+					<div className='page-header'>
+						<h1>Mini project</h1>
+					</div>
+					{this.renderMiniProject()}
+				</section>
+				<hr />
+				<section>
+					<div className='page-header'>
+						<h1>Long term project</h1>
+					</div>
+					{this.renderBigProject()}
+				</section>
+				<hr />
+				<section>
+					<div className='page-header'>
+						<h1>All projects</h1>
+					</div>
+					<ul id='hexGrid'>
+						{this.renderList()}
+					</ul>
+					{this.renderModals()}
+				</section>
 			</div>
 		);
 	}
