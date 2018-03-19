@@ -13,7 +13,7 @@ class ProjectElement extends Component {
 						<p>Description:</p>
 						<p>{this.props.data.description}</p>
 						<p>Used technologies: {this.props.data.technologies}</p>
-						<a href="#" className="btn btn-success">GitHub</a>
+						<a href="#" className="btn btn-primary">GitHub</a>
 					</div>
 				</div>
 			</div>

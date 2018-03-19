@@ -1,7 +1,7 @@
 export default function () {
 	return [
 		{
-			title: 'Facebook auth',
+			title: 'Facebook authentication',
 			technologies: 'React, Redux, Nodejs',
 			description: 'Mini project where I learn how to work with facebook authentication. In the future I will add also google auth.',
 			url: '',

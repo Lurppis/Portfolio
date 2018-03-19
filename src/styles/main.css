@@ -296,7 +296,9 @@ header .row img {
   border-radius: 50%;
   max-height: 100%;
   max-width: 100%;
-  border-radius: 100%; }
+  border-radius: 99em;
+  border: 2px solid #eee;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
 
 .welcome {
   vertical-align: middle;

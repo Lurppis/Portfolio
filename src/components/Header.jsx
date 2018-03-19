@@ -11,7 +11,7 @@ const Header = () => (
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-1'>
 				<div id='link'>
-					<NavLink to='/' exact={true} activeClassName='active'>Home</NavLink>
+					<NavLink to='/portfolio' exact={true} activeClassName='active'>Home</NavLink>
 				</div>
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-2 text-center text-md-left'>
