@@ -8,7 +8,9 @@ const HomePage = () => (
 				<br />
 				<h2>I can help you build your next product.</h2>
 			</div>
-			<div className="welcome__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim nostrum veritatis sed porro assumenda ab veniam ducimus doloribus excepturi expedita dolores deserunt quae recusandae laboriosam earum placeat, est, tempora laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptate voluptas modi tempore nobis quas repellat voluptatibus quibusdam assumenda, dicta suscipit. Sit ea accusamus eum fugit, dignissimos molestias quaerat praesentium.</div>
+			<div className="welcome__text">Technologies I'm interested in: Nodejs, React, Redux, earlier C#</div>
+			<div className="welcome__text">I study computer science at Wyzsza Szkoła Bankowa in Poznań, but I live in Gdynia, what a strange thing :).</div>
+
 		</div>
 
 	</div>

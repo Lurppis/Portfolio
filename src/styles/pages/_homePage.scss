@@ -6,7 +6,9 @@
 	  margin-top: 20vh;
 	}
 	&__text {
-		padding-bottom: 200px;
+		&:last-child {
+			padding-bottom: 200px;
+			}
 	}
 	span {
 	  color: red;

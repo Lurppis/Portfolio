@@ -307,7 +307,7 @@ header .row img {
   @media (min-width: 700px) {
     .welcome {
       margin-top: 20vh; } }
-  .welcome__text {
+  .welcome__text:last-child {
     padding-bottom: 200px; }
   .welcome span {
     color: red; }

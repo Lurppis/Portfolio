@@ -26,7 +26,7 @@ const Header = () => (
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-5 text-center text-md-right'>
 				<div id='link'>
-					<a href='/static/resume.pdf' target='_blank'>Resume</a>
+					<a href='https://www.dropbox.com/s/i1odbaqfrs0nz4e/Pilarczyk-Marcin-CV.pdf?dl=0' target='_blank'>Resume</a>
 				</div>
 			</div>
 		</div>
