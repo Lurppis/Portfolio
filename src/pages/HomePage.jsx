@@ -9,7 +9,7 @@ const HomePage = () => (
 				<h2>I can help you build your next product.</h2>
 			</div>
 			<div className="welcome__text">Technologies I'm interested in: Nodejs, React, Redux, earlier C#</div>
-			<div className="welcome__text">I study computer science at Wyzsza Szkoła Bankowa in Poznań, but I live in Gdynia, what a strange thing :).</div>
+			<div className="welcome__text">I study computer science at Wyzsza Szkoła Bankowa in Poznań, but I live in Gdynia, which is strange, but who cares :).</div>
 
 		</div>
 

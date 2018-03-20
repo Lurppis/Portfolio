@@ -11,7 +11,7 @@ export default function () {
 		{
 			title: 'Todo list full-stack',
 			technologies: 'React, Redux, Nodejs, MongoDb',
-			description: 'Long term project, cooperation with school colleague. Restfull api, with Json Web Token authentication, everything is connected with mongo database. Finally will be deployed to heroku server.',
+			description: 'Long term project, cooperation with colleague. Restfull api, with Json Web Token authentication, everything is connected with mongo database. Finally will be deployed to heroku server.',
 			url: 'https://github.com/ValkyreaSky/doto',
 			image: 'pexels-photo-003.jpg',
 			bigProject: true
@@ -32,35 +32,36 @@ export default function () {
 		},
 		{
 			title: 'Simple note app',
-			technologies: 'Nodejs',
-			description: '',
+			technologies: 'Nodejs, Yargs, Lodash',
+			description: 'This is my first nodejs project I\'ve ever made. A program that store notes in json file. You are able to add, delete, list or read nots if created.',
 			url: 'https://github.com/Lurppis/Note-Console-App',
 			image: 'pexels-photo-010.jpg'
 		},
 		{
 			title: 'Applicous-Clone',
 			technologies: 'Html, sass',
-			description: '',
+			description: 'Tutorial, from YT where I learned how to work with Sass.',
 			url: 'https://github.com/Lurppis/Appilicous-Clone',
 			image: 'pexels-photo-006.jpg'
 		},
 		{
 			title: 'Restaurant project',
 			technologies: 'C#, Socket.io',
+			description: 'First school project, Mc Donald order clone. Restaurant has their own priority, car client should be placed at the top of stack, rest of clients to the end of queue. Application should use .Net, threading, random function and simple I/O.',
 			url: 'https://github.com/Lurppis/WSB-Restaurant',
 			image: 'pexels-photo-005.jpg'
 		},
 		{
 			title: 'Barcode generator',
 			technologies: 'C#, WPF',
-			description: '',
+			description: 'Program will create a graphic file (BMP, JPG, PNG, ...) based on the given bar code string.',
 			url: 'https://github.com/Lurppis/Barcode-generator',
 			image: 'pexels-photo-001.jpg'
 		},
 		{
 			title: 'Prime number checker',
 			technologies: 'C#',
-			description: '',
+			description: 'Program reads text file, which contains integers and search for prime numbers.',
 			url: 'https://github.com/Lurppis/Prime-Number-Check',
 			image: 'pexels-photo-008.jpg'
 		}
