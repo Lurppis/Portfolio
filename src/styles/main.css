@@ -259,6 +259,10 @@ header .row img {
   .hex {
     width: 25%;
     /* = 100 / 4 */ }
+    .hex h1 {
+      font-size: 1.2em; }
+    .hex p {
+      font-size: 0.9em; }
   .hex:nth-child(7n+5) {
     /* first hexagon of even rows */
     margin-left: 12.5%;
@@ -271,6 +275,10 @@ header .row img {
   .hex {
     width: 33.333%;
     /* = 100 / 3 */ }
+    .hex h1 {
+      font-size: 1.2em; }
+    .hex p {
+      font-size: 1em; }
   .hex:nth-child(5n+4) {
     /* first hexagon of even rows */
     margin-left: 16.666%;
@@ -288,9 +296,9 @@ header .row img {
     margin-left: 25%;
     /* = width of .hex / 2  to indent even rows */ } }
 
-@media (max-width: 400px) {
+@media (max-width: 490px) {
   #hexGrid {
-    font-size: 13px; } }
+    font-size: 11px; } }
 
 .projectSection img {
   border-radius: 50%;
@@ -299,6 +307,9 @@ header .row img {
   border-radius: 99em;
   border: 2px solid #eee;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
+  @media (max-width: 800px) {
+    .projectSection img {
+      display: none; } }
 
 .welcome {
   vertical-align: middle;

@@ -9,7 +9,7 @@ const Header = () => (
 			<div className='col-xs-12 col-md-4 order-md-3 text-center'>
 				<img className='img-center' src={images.logo} alt='logo img' />
 			</div>
-			<div className='col col-sm-6 col-md-2 order-md-1'>
+			<div className='col col-sm-6 col-md-2 text-center order-md-1'>
 				<div id='link'>
 					<NavLink to='/portfolio' exact={true} activeClassName='active'>Home</NavLink>
 				</div>
@@ -26,7 +26,7 @@ const Header = () => (
 			</div>
 			<div className='col col-sm-6 col-md-2 order-md-5 text-center text-md-right'>
 				<div id='link'>
-					<a href='https://www.dropbox.com/s/i1odbaqfrs0nz4e/Pilarczyk-Marcin-CV.pdf?dl=0' target='_blank'>Resume</a>
+					<a href='https://www.dropbox.com/s/i1odbaqfrs0nz4e/Pilarczyk-Marcin-CV.pdf?dl=0' target='_blank' rel="noopener noreferrer">Resume</a>
 				</div>
 			</div>
 		</div>

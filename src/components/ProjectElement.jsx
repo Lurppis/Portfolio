@@ -5,10 +5,10 @@ class ProjectElement extends Component {
 		return (
 			<div className="projectSection">
 				<div className='row d-flex align-items-center'>
-					<div className="col col-sm-3">
+					<div className="col col-md-3">
 						<img className='img-rounded' src={require('../images/hexagons/' + this.props.data.image)} alt="" />
 					</div>
-					<div className="col col-sm-8">
+					<div className="col col-md-8 col-12">
 						<h3>{this.props.data.title}</h3>
 						<p>Description:</p>
 						<p>{this.props.data.description}</p>

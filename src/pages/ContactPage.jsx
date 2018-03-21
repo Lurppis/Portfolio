@@ -17,18 +17,18 @@ marcinpilarczyk@me.com</a> or via phone 530-740-711!</p>
 					<span>-- Marcin Pilarczyk</span>
 					<hr />
 
-					<div class="container_social">
-						<a class="sns_btn btn_facebook" href="https://www.facebook.com/people/Marcin-Pilarczyk/100000366427387" target='_blank'>
-							<i class="fa fa-facebook"></i>
+					<div className="container_social">
+						<a className="sns_btn btn_facebook" rel="noopener noreferrer" href="https://www.facebook.com/people/Marcin-Pilarczyk/100000366427387" target='_blank'>
+							<i className="fa fa-facebook"></i>
 						</a>
-						<a class="sns_btn btn_github" href="#" rel="author">
-							<i class="fa fa-github"></i>
+						<a className="sns_btn btn_github" href="https://github.com/Lurppis" rel="author">
+							<i className="fa fa-github"></i>
 						</a>
-						<a class="sns_btn btn_googleplus" href="#" rel="author">
-							<i class="fa fa-instagram"></i>
+						<a className="sns_btn btn_googleplus" href="https://www.instagram.com/lurppisek93/" rel="author">
+							<i className="fa fa-instagram"></i>
 						</a>
-						<a class="sns_btn btn_email" href="mailto:marcinpilarczyk@me.com?subject=Hire" rel="author">
-							<i class="fa fa-envelope"></i>
+						<a className="sns_btn btn_email" href="mailto:marcinpilarczyk@me.com?subject=Hire" rel="author">
+							<i className="fa fa-envelope"></i>
 						</a>
 					</div>
 				</div>

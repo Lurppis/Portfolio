@@ -11,7 +11,7 @@ class ProjectList extends Component {
 		return this.props.projects.map((project) => {
 			if(project.miniProject === true){
 				return (
-					<ProjectElement data={project} />
+					<ProjectElement key={project.title} data={project} />
 				);
 			}
 		});
@@ -20,7 +20,7 @@ class ProjectList extends Component {
 		return this.props.projects.map((project) => {
 			if(project.bigProject === true){
 				return (
-					<ProjectElement data={project} />
+					<ProjectElement key={project.title} data={project} />
 				);
 			}
 		});
